@@ -1,1 +1,1 @@
-<body background="{{ url_for('static', filename='images/home-bg.jpg.png') }}">
+<body background="{{ url_for('static', filename='images/home-bg.jpg') }}">
