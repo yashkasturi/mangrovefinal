@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+<style>
+#home{
+ background-color: #4C4C4C;
+            }
+</style>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Mangroves</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min1.css')}}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min1.css')}}">
+<!-- Main css -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css')}}">
+<link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar navbar-default navbar-static-top" role="navigation">
+     <div class="container">
+
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <center><a href="index.html" class="navbar-brand">Select Location and Time</a></center>
+          </div>
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                   <!-- <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Special thanks to</a></li>
+                    <li><a href="contact.html">Contact</a></li>-->
+               </ul>
+          </div>
+
+  </div>
+</div>
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-wordpress">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+<section id="home" class="main-home parallax-section">
+  <!--<div class="overlay"></div>
+   <div id="particles-js"></div>-->
+<div class="container">
+      <!--    <div class="row">
+               <div class="col-md-12 col-sm-12">
+--><div class="row">
+  <div class="column"> 
+   <form method="POST" >
+    ENTER THE PATH NAME:<br>
+    <input type="text" name="pathname" style="color:black"><br>
+    <br>SELECT THE BEFORE DATE <br>
+    <input type="date" name="b_date" style="color:black" min='2014-01-01' max='2019-12-31'><br><br>
+    SELECT THE AFTER DATE <br>
+    <input type="date" name="a_date" style="color:black"><br>
+    <input type="submit" value="Get Detailed Analysis" formaction="http://127.0.0.1:5000/index" class="smoothScroll btn btn-default">
+  </form>
+</div>	  
+  </div>
+ </div>
+  <div class="column"><iframe src="https://www.google.com/maps/d/embed?mid=1kwXZIuI_y8JcT-On_aTowrzrgBaunCkC" width="1000" height="640"></iframe>
+</div>
+   <!--  </div>
+--></section>
+ <!-- Back top -->
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+<!-- SCRIPTS -->2
+<script src="{{ url_for('static', filename='js/jquery.js')}}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>
+<script src="{{ url_for('static', filename='js/particles.min.js')}}"></script>
+<script src="{{ url_for('static', filename='js/app.js')}}"></script>
+<script src="{{ url_for('static', filename='js/jquery.parallax.js')}}"></script>
+<script src="{{ url_for('static', filename='js/smoothscroll.js')}}"></script>
+<script src="{{ url_for('static', filename='js/custom.js')}}"></script> 
+</BODY>
+</HTML>
