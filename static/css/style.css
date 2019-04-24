@@ -285,19 +285,19 @@ a:hover, a:active, a:focus {
 }
 
 .main-about {
-  background: url('/static/images/about-bg.jpg') no-repeat;
+  background: url('/static/images/home-bg.jpg') no-repeat;
 }
 
 .main-single-post {
-  background: url('/static/images/single-post-bg.jpg') no-repeat;
+  background: url('/static/images/home-bg.jpg') no-repeat;
 }
 
 .main-gallery {
-  background: url('/static/images/gallery-bg.jpg') no-repeat;
+  background: url('/static/images/home-bg.jpg') no-repeat;
 }
 
 .main-contact {
-  background: url('/static/images/contact-bg.jpg') no-repeat;
+  background: url('/static/images/home-bg.jpg') no-repeat;
 }
 
 #particles-js {
