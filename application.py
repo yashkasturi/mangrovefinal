@@ -4,10 +4,10 @@ from PIL import Image
 import requests
 import sys
 #import cv2
-import numpy 
-from skimage.io import imread
-import imutils
-from skimage.measure import compare_ssim
+#import numpy 
+#from skimage.io import imread
+#import imutils
+#from skimage.measure import compare_ssim
 
 app = Flask(__name__,static_url_path='/static')
 
