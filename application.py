@@ -3,7 +3,7 @@ from flask_mysqldb import MySQL
 from PIL import Image
 import requests
 import sys
-import cv2
+#import cv2
 import numpy 
 from skimage.io import imread
 import imutils
@@ -155,7 +155,7 @@ def main():
 		ratio_white = cv2.countNonZero(mask)/(img.size/3)
 		a=numpy.round(ratio_white*100, 2)
 		print('Mangrove percentage(Before):', numpy.round(ratio_white*100, 2))
-	    #cv2.imshow("mask",mask)
+	        #cv2.imshow("mask",mask)
 		#cv2.imshow("cam1",img)
 		cv2.imwrite("./static/images/before1.jpg",mask)
 		#cv2.waitKey(80)
