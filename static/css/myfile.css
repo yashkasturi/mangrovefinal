@@ -1,1 +1,4 @@
-<body background="{{ url_for('static', filename='images/home-bg.jpg') }}">
+body
+{
+	background-image:url('/static/images/home-bg.jpg');
+}
